@@ -1,0 +1,82 @@
+.contact-section {
+  margin-top: 2em;
+  background: #fff;
+  border-radius: 9px;
+  padding: 1.1em 1.4em 2.2em 1.4em;
+  box-shadow: 0 2px 11px #22334414;
+  text-align: center;
+}
+.contact-section h3 {
+  margin-top: 0;
+  color: #052e5e;
+}
+.contact-section a {
+  color: #052e5e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.reviews-area {
+  margin-top: 2em;
+  text-align: left;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  margin-bottom: 1.2em;
+}
+.review-form input,
+.review-form textarea {
+  font-size: 1em;
+  padding: 0.6em;
+  border: 1px solid #aac;
+  border-radius: 5px;
+  resize: none;
+  width: 100%;
+}
+.review-form button {
+  align-self: flex-end;
+  padding: 0.48em 1.9em;
+  background: #052e5e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.review-form button:hover {
+  background: #1757ae;
+}
+.reviews-list {
+  margin-top: 0.7em;
+}
+.review {
+  background: #f4f7fb;
+  padding: 0.85em 1em;
+  border-radius: 6px;
+  margin-bottom: 0.55em;
+  box-shadow: 0 1px 4px #b6c7e118;
+}
+.review-date {
+  font-size: 0.87em;
+  color: #666;
+  margin-left: 8px;
+}
+.review-body {
+  margin-top: 0.32em;
+  font-size: 1em;
+  white-space: pre-line;
+  color: #223;
+}
+.no-reviews {
+  color: #999;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .reviews-area { max-width: 100%; }
+}
